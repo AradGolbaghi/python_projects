@@ -1,6 +1,5 @@
 import random
 
-
 play = True
 temp = -1
 
