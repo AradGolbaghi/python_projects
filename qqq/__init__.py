@@ -1,3 +1,4 @@
+import random
 play = True
 
 while play:
@@ -10,13 +11,7 @@ while play:
     if box_price > str(20):
         print("\nWell let's wait until someone is here for the box of toys :) ")
         print("And then we would be $" + box_price + " richer ")
-i = 1
-while i <= 33333:
-    print(i)
-    i = i + 1
-    i+2
-
-    first = input("First: ")
-    second = input("Second: ")
-    sum = float(first) + float(second)
-    print(sum)
+    else: print("If wanted I can Put a random number in (y/n) ")
+    if 'y':
+        box_price = random.randint(0, 20)
+        
