@@ -1,5 +1,5 @@
 first = input("First: ")
 second = input("Second: ")
-finish = int(first) > int(second)
+finish = first + second
 print(finish)
 
