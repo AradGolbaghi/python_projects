@@ -1,4 +1,4 @@
 course = "Chess for Beginners "
-print(course.upper())
-print(course.lower())
+print(len(course))
+print('\nLen means that how many things (space, letters, numbers) have made up (course)\n ')
 print(course)
