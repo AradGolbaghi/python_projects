@@ -1,5 +1,11 @@
-i = 1
-
-while i <= 10000000:
-    print(i)
-    i = i + 1
+secret_number = 6 9
+guess_count = 0
+guess_limit = 5
+while guess_count < guess_limit:
+    guess = int(input('Guess: '))
+    guess_count += 1
+    if guess == secret_number:
+        print('You Win!')
+        break
+else:
+    print("Sorry! You Failed ")
