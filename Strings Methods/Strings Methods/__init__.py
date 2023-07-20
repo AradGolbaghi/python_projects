@@ -1,9 +1,8 @@
-buyer_has_good_credit = True
-
-price_house = 1000000
-
-if buyer_has_good_credit:
-    down_payment = 0.1 * price_house
+name = "Arad"
+print(name)
+if len(name)<3:
+    print("\nName has to be 3 characters at least")
+elif len(name)>50:
+    print("\nName has to be 50 characters maximum")
 else:
-    down_payment = 0.2 * price_house
-print(f"down_payment: ${down_payment}")
+    print("\nName looks good")
