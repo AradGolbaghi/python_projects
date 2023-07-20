@@ -1,8 +1,8 @@
-name = "Arad"
-print(name)
-if len(name)<3:
-    print("\nName has to be 3 characters at least")
-elif len(name)>50:
-    print("\nName has to be 50 characters maximum")
+weight = int(input("Weight: "))
+unit = input('(L)bs or (K)g: ')
+if unit.upper() == 'L':
+    converted = weight * 0.45
+    print(f"You are {converted} kilograms")
 else:
-    print("\nName looks good")
+    converted = weight / 0.45
+    print(f"You are {converted} lbs")
