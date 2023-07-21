@@ -1,11 +1,18 @@
-secret_number = 69
-guess_count = 0
-guess_limit = 5
-while guess_count < guess_limit:
-    guess = int(input('Guess: '))
-    guess_count += 1
-    if guess == secret_number:
-        print('You Win!')
+homme = ""
+
+while True:
+    homme = input("> ").lower()
+    if homme == "start":
+        print("Car started, Go Go Go! ")
+    elif homme == "stop":
+        print("Car stopped oh no!")
+    elif homme == "help":
+        print("""
+Start = Car started, Go Go Go!
+Stop = Car stopped oh no!
+Quit = Exiting the game
+""")
+    elif homme == "quit":
         break
-else:
-    print("Sorry! You Failed ")
+    else:
+        print("Sorry, My programmer didn't tell me what do those words mean :( ")
