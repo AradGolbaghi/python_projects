@@ -1,4 +1,4 @@
-secret_number = 6 9
+secret_number = 69
 guess_count = 0
 guess_limit = 5
 while guess_count < guess_limit:
