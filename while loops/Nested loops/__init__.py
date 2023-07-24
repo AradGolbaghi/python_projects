@@ -1,4 +1,4 @@
-numbers = [5, 2, 5, 2, 2]
+numbers = [1, 1, 1, 5, 0]
 for x in numbers:
     output = ''
     for count in range(x):
