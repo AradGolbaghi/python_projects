@@ -1,3 +1,3 @@
 numbers = [5, 2, 4, 6, 8]
-numbers.remove(6)
+numbers.clear()
 print(numbers)
