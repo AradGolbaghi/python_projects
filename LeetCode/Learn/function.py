@@ -4,14 +4,15 @@
 #[1]
  
 
-def big(big):
-    max = 0
-    for x in range(len(big)):
-        if(big[x] > max):
-            max = big[x]
-            print( max)
-            print("---------------")
+import sys
+
+
+def small(s_mall):
+    min = 10000000000000000000000000000000000000000000000
+    for x in range(len(s_mall)):
+        if(s_mall[x] < min):
+            min = s_mall[x]
             
-    return max
+    return min
     
-print(big([1,12,43,5213,23]))
+print(small([0,-100,1,12,43,5213,23]))
